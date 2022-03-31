@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Guilherme Dunguel">
+   <link rel="stylesheet" href="style/style.css">
+   <link rel="stylesheet" href="style/animation.css">
+   <link rel="stylesheet" href="style/mediaquery.css">
+   <link rel="shortcut icon" href="style/assets/logo-desktop.svg" type="image/x-icon">
+   <title>Great Coffee - O café que te desperta para o código!</title>
+</head>
+<body>
+   <header>
+      <img class="logo" src="style/assets/logo-desktop.svg" alt="rocketseatLogo">
+      <nav class="navbar">
+         <a href="#">Home</a>
+         <a href="#">Menu</a>
+         <a href="#">Recompensas</a>
+         <a href="#">Gift Cards</a>
+         <a href="#">Lojas</a>
+      </nav>
+      <a href="#"><button class="interactButton">PEGAR MEU CAFÉ</button></a>
+      <div class="hamburguerMenu" onclick="transformState()">
+         <div class="div-navbar-mobile ">
+            <nav class="navbar-mobile">
+               <a href="#" class="mobile-item">Home</a>
+               <a href="#" class="mobile-item">Menu</a>
+               <a href="#" class="mobile-item">Recompensas</a>
+               <a href="#" class="mobile-item">Gift Cards</a>
+               <a href="#" class="mobile-item">Lojas</a>
+               <a href="#" class="pegar-cafe-button">PEGAR MEU CAFÉ</a>
+            </nav>
+         </div>
+         <img src="style/assets/menu-buguer-open.svg" alt="">
+      </div>
+   </header>
+   <main>
+      <h1 class="principalTitle">
+         <span>Great Coffee</span>
+         <span>&lt;Great Code&sol;&gt;</span>
+      </h1>
+      <div class="div-cups">
+         <img class="coffee-cups" src="style/assets/rocket-coffee.png" alt="rocketCoffeeCupsExample">
+      </div>
+   </main>
+   <section class="blur">
+      <img class="blur-bottom-left" src="style/assets/blur-1.png" alt="">
+      <img class="blur-top-right" src="style/assets/blur-2.png" alt="">
+   </section>
+   <script src="script/script.js"></script>
+</body>
+</html>

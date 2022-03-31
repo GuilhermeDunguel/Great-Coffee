@@ -1,0 +1,23 @@
+:root {
+   --backgrond: #000;
+   --text-color: #FFF;
+   --button: #8257E5;
+   --border: #29292E;
+   --border-menu-mobile: #A8A8B3;
+   --text-color-menu-mobile: #E1E1E6;
+}
+
+.navbar > a:hover {
+   color: #8257E5;
+   text-decoration: none;
+}
+
+.interactButton:hover {
+   background-color: #8257E5;
+   box-shadow: 0 0 10px #a986fa;
+   cursor: pointer;
+}
+
+.pegar-cafe-button:hover {
+   background-color: #8f67eb;
+}

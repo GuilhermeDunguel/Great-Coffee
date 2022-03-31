@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Manrope', sans-serif;
+}
+
+:root {
+   --backgrond: #000;
+   --text-color: #FFF;
+   --button: #8257E5;
+   --border: #29292E;
+   --border-menu-mobile: #A8A8B3;
+   --text-color-menu-mobile: #E1E1E6;
+}
+
+body {
+   height: 100vh;
+   background-color: var(--backgrond);
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 50px;
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin:0px 131px 0px 255px;
+   gap: 32px;
+}
+
+.navbar > a {
+   color: var(--text-color);
+   font-size: 14px;
+   text-decoration: none;
+   transition: 0.15s;
+}
+
+.div-navbar-mobile {
+   display: none;
+}
+
+.hamburguerMenu {
+   position: relative;
+
+}
+
+.active {
+   display: flex;
+   position: absolute;
+   top: 45px;
+   right: -45px;
+   background-color: white;
+   border-radius: 20px;
+   padding: 5px;
+}
+
+.navbar-mobile {
+   display: flex;
+   text-align: center;
+   gap: 5px;
+   flex-direction: column;
+}
+
+.mobile-item {
+   font-weight: 500;
+   text-decoration: none;
+   color: #8257E5;
+}
+
+.pegar-cafe-button {
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+   border-radius: 18px;
+   font-size: 0.8rem;
+   background-color: #8257E5;
+}
+
+.interactButton {
+   color: var(--text-color);
+   padding: 11px 38px;
+   font-size: 11;
+   font-weight: 700;
+   border: 1px solid var(--button);
+   border-radius: 6px;
+   background: none;
+   transition: 0.15s;
+}
+
+.principalTitle {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+   font-size: 80px;
+   color: white;
+}
+
+.principalTitle > span:nth-child(2){
+   text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+   color: var(--backgrond);
+}
+
+.div-cups {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.coffee-cups {
+   position: absolute;
+   width: 1000px;
+   bottom: 0;
+   z-index: -1;
+}
+
+.blur-bottom-left {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   z-index: -1;
+}
+
+.blur-top-right {
+   position: absolute;
+   top: 0;
+   right: 0;;
+   z-index: -1;
+}
+
+.hamburguerMenu img {
+   width: 32px;
+   cursor: pointer;
+}
+
