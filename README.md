@@ -3,7 +3,7 @@
 <br>
 <img src='https://i.imgur.com/kOABBp9.png' alt='Banner do projeto'>
 <hr>
-<h2 align='center'><a href="https://vercel.com/guilhermedunguel/great-coffee">Visite o projeto clicando aqui</a></h2>
+<h2 align='center'><a href="https://great-coffee.vercel.app">Visite o projeto clicando aqui</a></h2>
 <h2>🟢 Sobre:</h2>
   <h3>🗂️ O projeto:</h3>
     <ul>
